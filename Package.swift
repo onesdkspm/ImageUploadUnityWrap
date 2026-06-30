@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", from: "2.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", branch: "develop"),
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
     ],
     targets: [
@@ -20,8 +20,8 @@ let package = Package(
             name: "ImageUploadUnityWrapWrapper",
             dependencies: [
                 .byName(name: "ImageUploadUnityWrap"),
-                .byName(name: "QCloudCOSXML"),
                 .byName(name: "QCloudCore"),
+                .byName(name: "QCloudCOSXML"),
                 .product(name: "BTSimpleHTTPNetworking", package: "BTSimpleHTTPNetworking"),
                 .product(name: "UnityBridge", package: "UnityBridge"),
             ],
@@ -36,18 +36,18 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "ImageUploadUnityWrap",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/2.0.0-dev-1406391/ImageUploadUnityWrap.xcframework.zip",
-            checksum: "5b17b429bfa8bfc32fea536e12a20ce16ceaeb90e6c9adf28e33ada616ef3e91"
-        ),
-        .binaryTarget(
-            name: "QCloudCOSXML",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/2.0.0-dev-1406391/QCloudCOSXML.xcframework.zip",
-            checksum: "01fda72e7f7a8aa1ada650248959558c71c61b0659998e01a7ff04b100df1500"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1474840/ImageUploadUnityWrap.xcframework.zip",
+            checksum: "4cc55fb0f5c743875f53cb7e6228ee0b8045bb7c670dfdb062d0edf45e96df4c"
         ),
         .binaryTarget(
             name: "QCloudCore",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/2.0.0-dev-1406391/QCloudCore.xcframework.zip",
-            checksum: "de9e0308d47b988170cc0abe5c0ce8536bdd143325926f10aec2dffd2e495457"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1474840/QCloudCore.xcframework.zip",
+            checksum: "c8b2d83a3c58f3dc1b72951919a59f02f12b994dce7fa788a28b15be17209e58"
+        ),
+        .binaryTarget(
+            name: "QCloudCOSXML",
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1474840/QCloudCOSXML.xcframework.zip",
+            checksum: "646ad3c547252d52bb19e03a959e7fd02568bbed37a546498689f3709e4c9f56"
         )
     ]
 )
