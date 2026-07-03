@@ -36,18 +36,18 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "ImageUploadUnityWrap",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478280/ImageUploadUnityWrap.xcframework.zip",
-            checksum: "22c0d77bef4989276aaec481e05f973e585c83b06f50db9b2fee9ebcc514f819"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478293/ImageUploadUnityWrap.xcframework.zip",
+            checksum: "5a793884eef81fef447aa647ec8cc2642da125c4811ee3996f64bb37171f7479"
         ),
         .binaryTarget(
             name: "QCloudCore",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478280/QCloudCore.xcframework.zip",
-            checksum: "699b795f042b4bc2e36cda2e136dbaa0c07fdc86342ad66238dc2cbee657fe1d"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478293/QCloudCore.xcframework.zip",
+            checksum: "6b4b96597b90c046d20620f8c50a876f419387f492652d44e3886f2530758443"
         ),
         .binaryTarget(
             name: "QCloudCOSXML",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478280/QCloudCOSXML.xcframework.zip",
-            checksum: "2b1ae1974f00c74d1ec1ff22c39122c04ad3c79455a139c06ee50ee61fc20bef"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478293/QCloudCOSXML.xcframework.zip",
+            checksum: "255e492432590568522a69bcb9835c29ea61cdc9beb155c6911da9aa72e5ba16"
         )
     ]
 )
