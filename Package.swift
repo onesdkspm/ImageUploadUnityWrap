@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", branch: "develop"),
+        .package(url: "https://github.com/onesdkspm/BTSimpleHTTPNetworking.git", from: "2.0.2"),
         .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
     ],
     targets: [
@@ -36,18 +36,18 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "ImageUploadUnityWrap",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478309/ImageUploadUnityWrap.xcframework.zip",
-            checksum: "ff2ee71f85b53b88155c2bbdf152abd67d96bdc8e821f46b19b729cf196d4b25"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1480225/ImageUploadUnityWrap.xcframework.zip",
+            checksum: "a3059c0c194705ab12ea9cb4b3eecf8c0fa97252e046cc49d664dc92430f4a4c"
         ),
         .binaryTarget(
             name: "QCloudCore",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478309/QCloudCore.xcframework.zip",
-            checksum: "93f888af27fcd478a4b45a46bd7f777e7b92deef790c33998854b81da32ea17b"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1480225/QCloudCore.xcframework.zip",
+            checksum: "67437358c457524d1090a76127be4e511eddcb985c137ad9d9b8530d6e94ac84"
         ),
         .binaryTarget(
             name: "QCloudCOSXML",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1478309/QCloudCOSXML.xcframework.zip",
-            checksum: "6d708c819665447ee90add0eb5fb7051b89194baa8d610479298fd8cdc410b02"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/ImageUploadUnityWrap/1.0.5-dev-1480225/QCloudCOSXML.xcframework.zip",
+            checksum: "925cc3b8b91f73c01564be6920eaa1246349ffca1e816f5c40258390d0f973d5"
         )
     ]
 )
